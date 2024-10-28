@@ -23,7 +23,6 @@
         /// el contenido de este método con el editor de código.
         /// </summary>
         private void InitializeComponent() {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.grbDatos = new System.Windows.Forms.GroupBox();
             this.txtDuracion = new System.Windows.Forms.TextBox();
             this.lblDuracion = new System.Windows.Forms.Label();
@@ -76,7 +75,7 @@
             this.grbDatos.Controls.Add(this.lblDirector);
             this.grbDatos.Controls.Add(this.txtTitulo);
             this.grbDatos.Controls.Add(this.lblTitulo);
-            this.grbDatos.Location = new System.Drawing.Point(767, 384);
+            this.grbDatos.Location = new System.Drawing.Point(21, 25);
             this.grbDatos.Name = "grbDatos";
             this.grbDatos.Size = new System.Drawing.Size(410, 293);
             this.grbDatos.TabIndex = 0;
@@ -161,9 +160,9 @@
             this.grbNavegacion.Controls.Add(this.btnSiguiente);
             this.grbNavegacion.Controls.Add(this.btnAnterior);
             this.grbNavegacion.Controls.Add(this.btnPrimero);
-            this.grbNavegacion.Location = new System.Drawing.Point(21, 692);
+            this.grbNavegacion.Location = new System.Drawing.Point(21, 397);
             this.grbNavegacion.Name = "grbNavegacion";
-            this.grbNavegacion.Size = new System.Drawing.Size(1196, 64);
+            this.grbNavegacion.Size = new System.Drawing.Size(241, 64);
             this.grbNavegacion.TabIndex = 1;
             this.grbNavegacion.TabStop = false;
             this.grbNavegacion.Text = "NAVEGACION";
@@ -172,7 +171,7 @@
             // 
             this.lblregistros.AutoSize = true;
             this.lblregistros.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblregistros.Location = new System.Drawing.Point(125, 26);
+            this.lblregistros.Location = new System.Drawing.Point(87, 26);
             this.lblregistros.Name = "lblregistros";
             this.lblregistros.Size = new System.Drawing.Size(71, 25);
             this.lblregistros.TabIndex = 8;
@@ -181,9 +180,9 @@
             // btnUltimo
             // 
             this.btnUltimo.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnUltimo.Location = new System.Drawing.Point(262, 20);
+            this.btnUltimo.Location = new System.Drawing.Point(196, 18);
             this.btnUltimo.Name = "btnUltimo";
-            this.btnUltimo.Size = new System.Drawing.Size(66, 34);
+            this.btnUltimo.Size = new System.Drawing.Size(39, 34);
             this.btnUltimo.TabIndex = 3;
             this.btnUltimo.Text = ">|";
             this.btnUltimo.UseVisualStyleBackColor = true;
@@ -192,7 +191,7 @@
             // btnSiguiente
             // 
             this.btnSiguiente.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSiguiente.Location = new System.Drawing.Point(205, 20);
+            this.btnSiguiente.Location = new System.Drawing.Point(157, 19);
             this.btnSiguiente.Name = "btnSiguiente";
             this.btnSiguiente.Size = new System.Drawing.Size(39, 34);
             this.btnSiguiente.TabIndex = 2;
@@ -203,7 +202,7 @@
             // btnAnterior
             // 
             this.btnAnterior.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAnterior.Location = new System.Drawing.Point(65, 20);
+            this.btnAnterior.Location = new System.Drawing.Point(46, 18);
             this.btnAnterior.Name = "btnAnterior";
             this.btnAnterior.Size = new System.Drawing.Size(39, 34);
             this.btnAnterior.TabIndex = 1;
@@ -216,7 +215,7 @@
             this.btnPrimero.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnPrimero.Location = new System.Drawing.Point(7, 19);
             this.btnPrimero.Name = "btnPrimero";
-            this.btnPrimero.Size = new System.Drawing.Size(65, 34);
+            this.btnPrimero.Size = new System.Drawing.Size(39, 34);
             this.btnPrimero.TabIndex = 0;
             this.btnPrimero.Text = "|<";
             this.btnPrimero.UseVisualStyleBackColor = true;
@@ -271,7 +270,7 @@
             // 
             this.lblBuscar.AutoSize = true;
             this.lblBuscar.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblBuscar.Location = new System.Drawing.Point(39, 69);
+            this.lblBuscar.Location = new System.Drawing.Point(437, 34);
             this.lblBuscar.Name = "lblBuscar";
             this.lblBuscar.Size = new System.Drawing.Size(86, 25);
             this.lblBuscar.TabIndex = 8;
@@ -279,9 +278,9 @@
             // 
             // txtBuscar
             // 
-            this.txtBuscar.Location = new System.Drawing.Point(131, 75);
+            this.txtBuscar.Location = new System.Drawing.Point(543, 39);
             this.txtBuscar.Name = "txtBuscar";
-            this.txtBuscar.Size = new System.Drawing.Size(631, 20);
+            this.txtBuscar.Size = new System.Drawing.Size(387, 20);
             this.txtBuscar.TabIndex = 8;
             this.txtBuscar.TextChanged += new System.EventHandler(this.txtBuscar_TextChanged);
             this.txtBuscar.KeyUp += new System.Windows.Forms.KeyEventHandler(this.textBox1_KeyUp);
@@ -298,7 +297,7 @@
             this.Duracion,
             this.Clasificacion,
             this.Genero});
-            this.grdDatos.Location = new System.Drawing.Point(44, 120);
+            this.grdDatos.Location = new System.Drawing.Point(519, 71);
             this.grdDatos.Name = "grdDatos";
             this.grdDatos.ReadOnly = true;
             this.grdDatos.RowHeadersWidth = 51;
@@ -406,7 +405,6 @@
             this.Controls.Add(this.grbEdicion);
             this.Controls.Add(this.grbNavegacion);
             this.Controls.Add(this.grbDatos);
-            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form1";
             this.Text = "Cinéfilos";
             this.Load += new System.EventHandler(this.Form1_Load);
